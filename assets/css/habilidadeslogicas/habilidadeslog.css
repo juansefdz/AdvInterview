@@ -1,0 +1,22 @@
+@import url(logicSecundaryContent.css);
+@import url(logicMainContent.css);
+
+.logic-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #82CFFA10;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    height: 100vh;
+    gap: 4.25rem;
+}
+
+@media (max-width: 768px) {
+    .logic-section {
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+        height: 100%;
+        gap: 4.25rem;
+    }
+}

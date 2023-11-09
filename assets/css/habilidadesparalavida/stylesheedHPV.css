@@ -1,0 +1,177 @@
+
+
+/* Habilidades para la vida */
+
+.skills-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(254, 254, 254);
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    height: 100%;
+    gap: 4.25rem;
+}
+
+.principal-content-skills {
+    display: flex;
+    width: 43.25rem;
+    align-items: center;
+    color: #000000;
+    gap: 5rem;
+    width: 100%;
+}
+
+.title-div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2.5rem;
+}
+
+.title-skills {
+    font-size: 2.25rem;
+    font-weight: 600;
+    padding: 8px 48px;
+    background: #f1b6d3;
+    color: white;
+    border-radius: 10px;
+    width: fit-content;
+    text-align: center;
+}
+
+.main-paragrahp {
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: justify;
+    
+}
+
+.principal-content-skills img{
+    width: 590px;
+    height: 400px;
+    border-radius: 10px;
+}
+
+.skills-subtitle-div{
+    display: flex;
+    justify-content: space-around;
+    margin: 5%;
+    transition: 2s;
+}
+
+.logic-subtitle-div .logic-link-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 0.5rem;
+}
+
+.skills-subtitle-div img{
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+.skills-subtitle-div img:hover{
+    filter: drop-shadow(20px 20px 4px rgba(0, 0, 0, 0.10));
+    transition: 0.5s;
+    transform: scale(1.02);
+}
+
+.skills-subtitle-div p{
+    margin-top: 5%;
+    font-size: 20px;
+}
+
+
+.skills-link-title{
+    font-size: 14px;
+    background:#f1b6d3 ;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 0px 0px 20px 20px;
+    padding: 3%;
+    color: white;
+}
+
+.skills-link-div {
+    width: 100%;
+}
+
+/* .skills-subtitle-div a{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+} */
+
+.skills-subtitle-div a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.more-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+}
+
+.more {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #41A3DA;
+    transition: 0.2s;
+}
+
+
+.more-div .arrow {
+    width: 20px;
+}
+
+.more-div :nth-child(1):hover {
+    font-size: 1.1rem;
+}
+
+@media (max-width: 768px){
+
+    .principal-content-skills img {
+        display: none;
+    }
+
+    .principal-content-skills .title-skills{
+        padding: 16px 32px;
+        background: none;
+        color: #f1b6d3;
+        
+    }
+
+    .skills-subtitle-div {
+        display: block;
+    }
+
+    .skills-subtitle-div img{
+        width: 100%;
+
+    }
+
+    .title-skills{
+        font-size: 20px;
+    }
+
+    .skills-link-title{
+        color: #FFFFFF;
+    }
+
+    .title-div {
+        align-items: center;
+        gap: 1rem;
+    }
+}
+

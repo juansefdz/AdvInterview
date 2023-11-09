@@ -1,0 +1,72 @@
+
+
+/* content */
+
+.container-htmlcss {
+  padding: 150px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.container-pdf {
+  padding: 20px 0;
+  gap: 100px;
+  display: flex;
+  justify-content: center;
+
+}
+
+.container-pdf iframe{
+  width: 600px;
+  height: 400px;
+}
+
+
+.pdf-title {
+  font-size: 2.25rem;
+  padding: 1rem 2rem;
+  background: #57C278;
+  color: #FFFFFF;
+  width: fit-content;
+  border-radius: 5px;
+}
+
+/* mediaquearies */
+
+@media (max-width: 768px) {
+
+  .tech-skill-principal-content {
+    flex-direction: column;
+}
+
+  .container-htmlcss {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .container-pdf {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .container-pdf iframe {
+    padding: 10px;
+    width: 96%;
+  }
+
+  .pdf-title {
+    font-size: 1rem;
+
+    background: #57C278;
+    color: #FFFFFF;
+    width:auto;
+    border-radius: 5px;
+  }
+
+}

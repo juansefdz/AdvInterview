@@ -1,0 +1,78 @@
+/* hambuerguesa */
+
+.navbar{
+    height: 50px;
+    position: relative;
+    transition: 0.2s;
+}
+
+.checkbox, .icons-menu{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top:10px;
+    right: 12px;
+    cursor: pointer;
+}
+
+.icons-menu{
+    pointer-events: none;
+    width: 50px;
+    height: 50px;
+}
+.checkbox{
+opacity: 0;
+}
+
+/* oculta el checkbox */
+.close-menu-logo{
+    display: none;
+
+}
+/* validacion menu abierto cerrado */
+.checkbox:checked~ .open-menu{
+    display: none;
+}
+.checkbox:checked~ .close-menu{
+    display: flex;
+}
+
+.menu{
+
+    width: 320px;
+    position: absolute;
+    top: 60px;
+    left: -300px;
+    display: none;
+
+}
+
+.menu li{
+    list-style: none;
+}
+.menu li a{
+    text-decoration: none;
+    background-color: #dfe9f2;
+    display: block;
+    padding: 10px 15px;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.menu li a:hover{
+    background-color: #dcd9d9;
+}
+
+.checkbox:checked~ .menu{
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .menu{
+        left: -200px;
+    }
+
+    .menu li a{
+        font-size: 1rem;
+    }
+}

@@ -1,0 +1,107 @@
+/* body */
+
+.tech-skill-home .tech-skill-home-content {
+  display: flex;
+  justify-content: space-around;
+}
+.tech-skill-home
+  .tech-skill-home-content
+  .tech-skill-technical-skills-title
+  h2 {
+  font-size: 36px;
+  text-align: center;
+  font-weight: 1000;
+  letter-spacing: 0.1px;
+}
+
+/* contenido tech skills python */
+
+.tech-skills-bg-tech-skills {
+  display: flex;
+  letter-spacing: 1px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 400;
+  padding: 8px 10px;
+  background: #57c278;
+  color: #ffffff;
+  border-radius: 10px;
+  width: fit-content;
+}
+
+.tech-skill-home .tech-skill-home-content .tech-skill-bg-tech-skills-title p {
+  text-align: justify;
+}
+
+
+/* elementos basicos python */
+
+.tech-skills-home-content {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  gap: 50px;
+  padding: 100px 0;
+}
+.tech-skills-introduction {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  padding: 40px 0;
+  letter-spacing: 1px;
+  font-size: 1rem;
+  text-align: justify;
+  font-weight: 400;
+}
+
+.tech-skills-introduction img {
+  width: 50%;
+  border-radius: 10px;
+}
+
+.multimedia-tech-skill-page {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.multimedia-tech-skill-page iframe {
+  width: auto;
+}
+
+/* mediaquearies */
+
+@media (max-width: 768px) {
+  .tech-skills-home-content {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding: 50px 0;
+  }
+  .tech-skills-introduction {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+        
+  }
+
+  .tech-skills-introduction img {
+    width: 100%;
+  }
+
+  .tech-skills-bg-tech-skills {
+    font-size: 1.25rem;
+  }
+
+
+}

@@ -1,0 +1,75 @@
+.tech-skill-logic-subtitle-div {
+    display: flex;
+    justify-content: space-around;
+    color: #000000;
+    gap: 6.625rem;
+}
+
+.tech-skill-logic-subtitle {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.tech-skill-logic-subtitle-div {
+    display: flex;
+    gap: 2.5rem;
+}
+
+.tech-skill-logic-subtitle-div a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.938rem;
+    border-radius: 10px;
+    font-size: 2rem;
+    width: 17.75rem;
+}
+
+.tech-skill-logic-subtitle-div a img {
+    width: 3.75rem;
+    height: 3.75rem;
+}
+
+.tech-skill-logic-subtitle-div .tech-skill-logic-link-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 0.5rem;
+}
+
+.tech-skill-logic-subtitle-div .tech-skill-logic-link-title {
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+
+.tech-skill-logic-subtitle-div .tech-skill-logic-link-description {
+    font-size: 1rem;
+    font-weight: 400;
+    width: 11.188rem;
+}
+
+.tech-skill-more-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.tech-skill-more {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #57C278;
+    transition: 0.2s;
+}
+
+.tech-skill-more-div .tech-skill-arrow {
+    width: 20px;
+}
+
+.tech-skill-more:hover {
+    font-size: 1.1rem;
+}

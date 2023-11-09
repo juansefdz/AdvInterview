@@ -1,0 +1,13 @@
+@import url(tech-skill-logic-Secundary-Content.css);
+@import url(tech-skill-logic-Main-Content.css);
+
+.tech-skill-tecn-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #57c27920;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    height: 100%;
+    gap: 4.25rem;
+}

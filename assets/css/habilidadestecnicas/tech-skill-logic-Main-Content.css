@@ -1,0 +1,91 @@
+.tech-skill-principal-content {
+    display: flex;
+    width: 43.25rem;
+    align-items: center;
+    color: #000000;
+    gap: 5rem;
+    width: 100%;
+}
+
+.tech-skill-title-div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2.5rem;
+}
+/* tech-skills-title */
+.tech-skill-title-tech-skill {
+    font-size: 2.25rem;
+    font-weight: 600;
+    padding: 8px 48px;
+    background: #57C278;
+    color: #FFFFFF;
+    border-radius: 10px;
+    width: fit-content;
+}
+
+.tech-skill-main-paragrahp-tech-skill{
+    text-align: justify;
+    width: 600px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+.tech-skill-tech-skills-img{
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+}
+
+/* mediaquearies */
+
+@media (max-width: 768px) {
+
+    .tech-skill-principal-content {
+        flex-direction: column;
+    }
+
+
+    .tech-skill-title-tech-skill {
+        font-size: 1.25rem;
+        padding: 1rem 2rem;
+        background: #FFFFFF;
+        color: #57C278;
+        width: fit-content;
+    }
+    
+    .tech-skill-main-paragrahp-tech-skill{
+        font-size: 1rem;
+        text-align: justify;
+        width: 300px;
+    }
+
+    .tech-skill-main-paragrahp-tech-skill2{
+        font-size: 1rem;
+        text-align: center;
+        width: 300px;
+    }
+    
+    .tech-skill-tech-skills-img{
+        width: 200px;
+        height: 200px;
+    }
+
+    .tech-skill-logic-subtitle-div {
+        display: flex;
+        flex-direction: column;
+        gap: 2.5rem;
+    }
+
+    .tech-skill-logic-subtitle-div a {
+        padding: 0px;
+    }
+
+    .tech-skill-title-div {
+        align-items: center;
+        gap: 2.5rem;
+    }
+    
+
+}

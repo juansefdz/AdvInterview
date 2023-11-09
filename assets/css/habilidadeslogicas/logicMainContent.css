@@ -1,0 +1,61 @@
+.principal-content {
+    display: flex;
+    align-items: center;
+    color: #000000;
+    gap: 5rem;
+    width: 100%;
+}
+
+.title-div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2.5rem;
+}
+
+.title {
+    font-size: 2.25rem;
+    font-weight: 600;
+    padding: 8px 48px;
+    background: #41A3DA;
+    color: #FFFFFF;
+    border-radius: 10px;
+    width: fit-content;
+}
+
+.main-paragrahp {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+@media (max-width: 768px) {
+    .principal-content {
+        flex-direction: column;
+        width: 100%;
+        gap: 1rem;
+    }
+
+    .title-div {
+        gap: 1rem;
+        align-items: center;
+
+    }
+    
+    /* .title-div .title-div-p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    } */
+
+    .title {
+        font-size: 1.25rem;
+        padding: 1rem 2rem;
+        background: #FFFFFF;
+        color: #41A3DA;
+    }
+
+    .title-main {
+        width: 70%;
+    }
+}

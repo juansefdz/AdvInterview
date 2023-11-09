@@ -1,0 +1,21 @@
+@import url(main.css);
+@import url(btns.css);
+
+*{
+    scroll-behavior: smooth;
+}
+
+.title-foto {
+    display: flex;
+    padding-top: 5.75rem;
+    line-height: 1.1;
+}
+
+@media (max-width: 768px) {
+    .title-foto {
+        position: relative;
+        flex-direction: column;
+        padding-top: 8.375rem;
+        padding-bottom: 5rem;
+    }
+}
